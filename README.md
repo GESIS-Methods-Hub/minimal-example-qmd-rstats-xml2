@@ -1,8 +1,10 @@
 # Minimal Example of Tutorial in Quarto with R and System Requirements
 
+**Superseded by https://github.com/GESIS-Methods-Hub/minimal-example-qmd-rstats-units.**
+
 [index.qmd](index.qmd) illustrates all the **required** metadata used by [`methodshub`](https://github.com/GESIS-Methods-Hub/methodshub).
 
-This repository uses [install.R](install.R) as [configuration file](https://mybinder.readthedocs.io/en/latest/using/config_files.html).
+This repository uses [install.R](install.R) as [configuration file](https://mybinder.readthedocs.io/en/latest/using/config_files.html). [R package `xml2`](https://packagemanager.posit.co/client/#/repos/2/packages/xml2) requires the [`libxml2` software library](https://en.wikipedia.org/wiki/Libxml2) from the system. `libxml2` software library is installed by [repo2docker](https://repo2docker.readthedocs.io/) because it is required by other R packages.
 
 ## Metadata
 
